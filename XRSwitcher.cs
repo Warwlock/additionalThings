@@ -17,8 +17,8 @@ public class XRSwitcher : MonoBehaviour
         
 	    //for me the first one was ArCore and second one was cardboard
         //Enter your plugin index to load plugin
-        StartXR(0); //That should starts ArCore if enabled both ArCore and cardboard.
-        StartXR(1); //And that should starts Cardboard if enabled both ArCore and cardboard
+        StartXR(0); //That should starts ArCore if enabled both ArCore and cardboard in plugins
+        StartXR(1); //And that should starts Cardboard if enabled both ArCore and cardboard in plugins
 
         //This will be stop all XR plugins then you can start a new one
         StopXR();
